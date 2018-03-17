@@ -1,6 +1,3 @@
-DROP DATABASE IF EXISTS timeCap_DB;
-
-CREATE DATABASE timeCap_DB;
 
 USE timeCap_db;
 

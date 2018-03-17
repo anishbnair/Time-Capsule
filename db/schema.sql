@@ -1,4 +1,4 @@
--- Drops the todolist if it exists currently --
-DROP DATABASE IF EXISTS passport_demo;
--- Creates the "todolist" database --
-CREATE DATABASE passport_demo;
+-- Drops the database if it exists currently --
+DROP DATABASE IF EXISTS time_db;
+-- Creates the database --
+CREATE DATABASE time_db;

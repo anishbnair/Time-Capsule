@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "jamesbond007",
-    "database": "passport_demo",
+    "password": "",
+    "database": "time_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false

@@ -13,7 +13,7 @@ module.exports = function (sequelize, DataTypes) {
             type: DataTypes.STRING,
         },
         user_text: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
         },
         user_picture: {
             type: DataTypes.STRING,
@@ -25,7 +25,7 @@ module.exports = function (sequelize, DataTypes) {
         // A post can't be created without an user due to the foreign key constraint
         Decades.belongsTo(models.User, {
             foreignKey: {
-                allowNull: false
+                // allowNull: false
             }
         });
     };

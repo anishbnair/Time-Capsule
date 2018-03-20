@@ -1,5 +1,5 @@
 
-USE timeCap_db;
+USE time_db;
 
 CREATE TABLE decades (
   id INT NOT NULL AUTO_INCREMENT,
@@ -13,7 +13,7 @@ CREATE TABLE decades (
 );
 
 
-USE timeCap_DB;
+
 
 INSERT INTO decades (user_name, decade, topic, title_tag, user_text)
 VALUES ("Sunny", "1960", "trends", "I remember...", "rocking out to 'The Who' singing 'My Generation' at Woodstock");

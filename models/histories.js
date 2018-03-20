@@ -1,7 +1,7 @@
 // Model for history
 
 module.exports = function (sequelize, DataTypes) {
-    var History = sequelize.define("History", {
+    var Histories = sequelize.define("Histories", {
 
         year: {
             type: DataTypes.INTEGER,
@@ -25,5 +25,5 @@ module.exports = function (sequelize, DataTypes) {
             type: DataTypes.STRING,
         }
     });
-    return History;
+    return Histories;
 };

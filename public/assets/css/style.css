@@ -8,17 +8,7 @@ body {
   background-image: url("Sky-High.jpg");
 }
 
-#inlineFormCustomSelect {
-  margin-bottom: 30px;
+ #inLineFormCustomSelect{
+  margin-bottom: 40px;
 }
 
-#selection {
-	margin-top: 10px;
-  margin-bottom: 30px;
-  padding:6px;
-	text-align: center;
-	height: 35px;
-	background-color: black;
-	font-weight: bold;
-	color: white;
-}

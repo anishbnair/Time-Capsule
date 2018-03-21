@@ -56,7 +56,7 @@ $(document).ready(function () {
             user_picture: pictureInput
                 .val()
                 .trim(),
-            userId: userID,
+            UserId: userID,
         };
 
         console.log(newPost);

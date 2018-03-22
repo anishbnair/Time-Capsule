@@ -16,7 +16,47 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--   <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="/logout">
@@ -24,10 +64,10 @@
                 </a>
             </div>
         </div>
-    </nav>
+    </nav> -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-12 col-md-offset-3">
                 <h2>Welcome
                     <span class="member-name"></span>
                 </h2>
@@ -47,20 +87,43 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
+
                 <form id="post">
                     <div class="form-group">
 
                         <label for="decade">Decade:</label>
-                        <input placeholder="Enter Decade" type="text" class="form-control" id="decade">
+                        <select name="decades" id="decade">
+                            <option value="years">Years</option>
+                            <option value="1960">1960</option>
+                            <option value="1970">1970</option>
+                            <option value="1980">1980</option>
+                            <option value="1990">1990</option>
+                            <option value="2000">2000</option>
+                            <option value="2010">2010</option>
+                        </select>
+
+                        <!--  <input placeholder="Enter Decade" type="text" class="form-control" id="decade"> -->
                         <br />
-                        <label for="decade">Topic:</label>
-                        <input placeholder="Enter Topic" type="text" class="form-control" id="topic">
                         <br />
-                        <label for="tag">Tag:</label>
+                        <label for="topic">Topic:</label>
+                        <select name="topics" id="topic">
+                            <option value="topics">Topics</option>
+                            <option value="sports">Sports</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="history">History</option>
+                            <option value="pop">Pop Culture</option>
+                            <option value="family">Family</option>
+
+                        </select>
+
+                        <!--  <input placeholder="Enter Topic" type="text" class="form-control" id="topic"> -->
+                        <br />
+                        <br />
+                        <label for="tag">Title:</label>
                         <input placeholder="Enter Topic" type="text" class="form-control" id="tag">
                         <br />
                         <label for="picture">Picture:</label>
-                        <input placeholder="Enter Topic" type="text" class="form-control" id="picture">
+                        <input placeholder="Add a picture" type="text" class="form-control" id="picture">
                         <br />
                         <label for="body">Body:</label>
                         <textarea placeholder="Post Body" class="form-control" rows="10" id="body"></textarea>

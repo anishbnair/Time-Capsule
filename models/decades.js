@@ -14,10 +14,10 @@ module.exports = function (sequelize, DataTypes) {
         },
         user_text: {
             type: DataTypes.TEXT,
-        },
-        user_picture: {
-            type: DataTypes.STRING,
         }
+        // user_picture: {
+        //     type: DataTypes.STRING,
+        // }
     });
 
     Decades.associate = function (models) {

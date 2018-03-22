@@ -11,13 +11,14 @@ module.exports = function(app) {
 
   // Get rotue for retrieving a single list of facts
   app.get("/api/history/:year", function(req, res) {
-    db.Histories.findOne({
+    db.histories.findOne({
+      attributes: ['year', 'best_picture', 'song', 'us_pres', 'census', 'super_bowl', 'world_series'],
       where: {
         year: req.params.year
       }
     })
-    .then(function(dbHistories) {
-      res.json(dbHistories);
+    .then(function(dbhistories) {
+      res.json(dbhistories);
     });
   });
 }

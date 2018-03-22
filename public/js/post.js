@@ -53,9 +53,9 @@ $(document).ready(function () {
             user_text: bodyInput
                 .val()
                 .trim(),
-            user_picture: pictureInput
-                .val()
-                .trim(),
+            // user_picture: pictureInput
+            //     .val()
+            //     .trim(),
             UserId: userID,
         };
 

@@ -1,7 +1,7 @@
 // Model for history
 
 module.exports = function (sequelize, DataTypes) {
-    var Histories = sequelize.define("Histories", {
+    var histories = sequelize.define("histories", {
 
         year: {
             type: DataTypes.INTEGER,
@@ -12,7 +12,7 @@ module.exports = function (sequelize, DataTypes) {
         song: {
             type: DataTypes.STRING,
         },
-        president: {
+        us_pres: {
             type: DataTypes.STRING,
         },
         census: {
@@ -23,7 +23,10 @@ module.exports = function (sequelize, DataTypes) {
         },
         world_series: {
             type: DataTypes.STRING,
-        }
+        },
+
     });
-    return Histories;
+    return histories;
 };
+
+

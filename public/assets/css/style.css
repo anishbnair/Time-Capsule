@@ -9,6 +9,23 @@ body {
 }
 
  #inLineFormCustomSelect{
-  margin-bottom: 40px;
+  margin-left: 45px;	
+  margin-bottom: 36px;
 }
 
+#say {
+	margin-left: 45px;
+}
+
+#entertainment {
+	margin-left: 85px;
+}
+
+#history {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#submit {
+	margin-left: 10px;
+}

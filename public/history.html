@@ -29,7 +29,7 @@
                   <form>
                     <div class="form-row align-items-center">
                       <div class="col-auto my-1">
-                        <label class="mr-sm-2" for="inlineFormCustomSelect">Select a Year!</label>
+                        <label id="say" class="mr-sm-2" for="inlineFormCustomSelect">Select a Year!</label>
                         <select class="custom-select mr-sm-4" id="inLineFormCustomSelect">
                           <option selected>Choose...</option>
                           <option value="1960">1960</option>
@@ -99,7 +99,7 @@
                         </div>
                       </div>
                       <div class="col-auto my-1">
-                        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                        <button id="submit" type="submit" class="btn btn-primary" id="submit">Submit</button>
                       </div>
                     </div>
                   </form>
@@ -107,11 +107,10 @@
               
 
               <div class="row">
-                  <div class="col-lg-12">
-
+                  
                         <div id="entertainment" class="row">
                           <div class="col-lg-4">
-                              <div class="card" style="width: 18rem; height: 25rem;">
+                              <div class="card" style="width: 16rem; height: 22rem;">
                                  <img class="card-img-top" src="assets/images/entertainment.png" alt="Card image cap">
                                  <div class="card-body">
                                   <h5 class="card-title text-center">Entertainment</h5>
@@ -120,9 +119,12 @@
                                  </div>
                               </div>
                           </div>
+                        </div>
 
-                         <div id="history" class="col-lg-4">
-                              <div class="card" style="width: 18rem; height: 25rem;">
+
+                        <div id="history" class="row">
+                           <div class="col-lg-4">
+                              <div class="card" style="width: 16rem; height: 22rem;">
                                  <img class="card-img-top" src="assets/images/history.png" alt="Card image cap">
                                  <div class="card-body">
                                   <h5 class="card-title text-center">History</h5>
@@ -132,10 +134,11 @@
                                   </div>
                               </div>
                           </div>
+                        </div>
 
-
-                           <div id="sports" class="col-lg-4">
-                              <div class="card" style="width: 18rem; height: 25rem;">
+                           <div id="sports" class="row">
+                            <div class="col-lg-4">
+                              <div class="card" style="width: 16rem; height: 22rem;">
                                   <img class="card-img-top" src="assets/images/sports.png" alt="Card image cap">
                                   <div class="card-body">
                                   <h5 class="card-title text-center">Sports</h5>
@@ -144,6 +147,7 @@
                                   </div>
                               </div>
                           </div>
+                        </div>
 
                         </div>
                     <br> 
@@ -182,7 +186,7 @@
                   $("#year").text(data.year);
                   $("#oscar").text(data.best_picture);
                   $("#song").text(data.song);
-                  $("#president").text(data.president);
+                  $("#president").text(data.us_pres);
                   $("#census").text(data.census);
                   $("#bowl").text(data.super_bowl);
                   $("#series").text(data.world_series);

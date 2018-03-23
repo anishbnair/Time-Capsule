@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "YSQL0211yrxx",
+    "password": "",
     "database": "time_db",
     "host": "localhost",
     "dialect": "mysql",
@@ -9,16 +9,13 @@
   },
   "test": {
     "username": "root",
-    "password": "YSQL0211yrxx",
+    "password": "",
     "database": "database_test",
     "host": "localhost",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "YSQL0211yrxx",
-    "database": "database_production",
-    "host": "localhost",
+    "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql"
   }
 }

@@ -66,7 +66,7 @@ Users can post – “What do you remember?”
 * The feeling is more fun and pop culture
 
 
-## Time Capsule – Initial Release
+## Time Capsule – Future Release Plan
 
 Admin Functionality
 * Continue to build and maintain the historical database

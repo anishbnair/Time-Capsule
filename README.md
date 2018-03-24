@@ -2,10 +2,11 @@
 
 ## Team:
 
-Front End Design
+Front End Design:
 * Teresa Jackson
 * Judi Perez
-Back End and Database Development
+
+Back End and Database Development:
 * Anish B Nair
 * Yvonne Reichenbach 
 * Matt Jones

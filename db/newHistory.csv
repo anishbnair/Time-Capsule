@@ -1,10 +1,8 @@
-
 id,year,best_picture,song,us_pres,census,super_bowl,world_series
-
 1,1960,"""Ben-Hur""","""The Battle of New Orleans"" -  Johnny Horton",Dwight D. Eisenhower,180.67 million,Not Held,"Pittsburgh 4, NY Yankees 3"
 2,1961," ""The Apartment""","""Theme of Exodus"" - Instrumental",John F. Kennedy,183.69 million,Not Held,"NY Yankees 4, Cincinnati 1"
 3,1962," ""West Side Story""","""Moon River"" - Henry Mancini",John F. Kennedy,186.54 million,Not Held,"NY Yankees 4, San Francisco 3"
-4,1963," ""Lawrence of Arabia""","""What Kind of Fool Am I?"" - Sammy Davis, Jr.",john F. Kennedy ,189.24 million,Not Held,"Los Angeles 4, NY Yankees 0"
+4,1963," ""Lawrence of Arabia""","""What Kind of Fool Am I?"" - Sammy Davis, Jr.",John F. Kennedy ,189.24 million,Not Held,"Los Angeles 4, NY Yankees 0"
 5,1964," ""Tom Jones""","""Days of Wine and Roses"" - Henry Mancini",Lyndon B. Johnson,191.89 million,Not Held,"St. Louis 4, NY Yankees 3"
 6,1965," ""My Fair Lady""","""Hello Dolly!"" - Louis Armstrong",Lyndon B. Johnson,194.30 million,Not Held,"Los Angeles 4, Minnesota 3"
 7,1966," ""The Sound of Music""","""The Shawdow of Your Smile"" - Tony Bennett",Lyndon B. Johnson,196.56 million,Not Held,"Baltimore 4, Los Angeles 0"
@@ -35,7 +33,7 @@ id,year,best_picture,song,us_pres,census,super_bowl,world_series
 32,1991," ""Dances With Wolves""","""From a Distance"" - Better Midler",George H. W. Bush,252.98 million,"New York Giants 20, Buffalo 19","Minnesota 4, Atlanta 3"
 33,1992," ""The Silence of the Lambs""","""Unforgettable"" - Natalie Cole",George H. W. Bush,256.51 million,"Washington 37, Buffalo 24","Toronto 4, Atlanta 2"
 34,1993," ""Unforgiven""","""Tears in Heaven"" - Eric Clapton",Bill Clinton,259.92 million,"Dallas 52, Buffalo 17","Toronto 4, Philadelphia 2"
-35,1994," ""Schindler�s List""","""A Whole New Worlds"" - Peabo Bryson&_Regina Belle",Bill Clinton,263.13 million,"Dallas 30, Buffalo 13",Not Held
+35,1994," ""Schindler's List""","""A Whole New Worlds"" - Peabo Bryson and Regina Belle",Bill Clinton,263.13 million,"Dallas 30, Buffalo 13",Not Held
 36,1995," ""Forrest Gump""","""Streets of Philadelphia"" - Bruce Springsteen",Bill Clinton,266.28 million,"San Francisco 49, San Diego 26","Atlanta 4, Cleveland 2"
 37,1996," ""Braveheart""","""Kiss from a Rose"" - Seal",Bill Clinton,269.39 million,"Dallas 27, Pittsburgh 17","NY Yankees 4, Atlanta 2"
 38,1997," ""The English Patient""","""Change the World"" - Eric Clapton",Bill Clinton,272.65 million,"Green Bay 35, New England 21","Florida 4, Cleveland 3"

@@ -1,22 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": "YSQL0211yrxx",
+    "password": "root",
     "database": "time_db",
     "host": "localhost",
     "dialect": "mysql",
+    "port": "8889",
     "operatorsAliases": false
   },
   "test": {
     "username": "root",
-    "password": "YSQL0211yrxx",
+    "password": "root",
     "database": "database_test",
     "host": "localhost",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "YSQL0211yrxx",
+    "password": "root",
     "database": "database_production",
     "host": "localhost",
     "dialect": "mysql"

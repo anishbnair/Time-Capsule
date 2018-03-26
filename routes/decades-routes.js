@@ -14,7 +14,8 @@ module.exports = function (app) {
         db.Decades.findAll({
             where: {
                 decade: req.params.decade
-            }
+            },
+            include: [db.User]
         })
             .then(function (dbDecades) {
                 res.json(dbDecades);

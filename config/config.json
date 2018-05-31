@@ -1,37 +1,22 @@
 {
-  "development": {
-    "username": "root",
-<<<<<<< HEAD
-    "password": "root",
-=======
-    "password": "",
->>>>>>> master
-    "database": "time_db",
-    "host": "localhost",
-    "dialect": "mysql",
-    "port": "8889",
-    "operatorsAliases": false
-  },
-  "test": {
-    "username": "root",
-<<<<<<< HEAD
-    "password": "root",
-=======
-    "password": "",
->>>>>>> master
-    "database": "database_test",
-    "host": "localhost",
-    "dialect": "mysql"
-  },
-  "production": {
-<<<<<<< HEAD
-    "username": "root",
-    "password": "root",
-    "database": "database_production",
-    "host": "localhost",
-=======
-    "use_env_variable": "JAWSDB_URL",
->>>>>>> master
-    "dialect": "mysql"
+    "development": {
+      "username": "root",
+      "password": "",
+      "database": "time_db",
+      "host": "localhost",
+      "dialect": "mysql",
+      "operatorsAliases": false
+    },
+    "test": {
+      "username": "root",
+      "password": "",
+      "database": "database_test",
+      "host": "localhost",
+      "dialect": "mysql"
+    },
+    "production": {
+      "use_env_variable": "JAWSDB_URL",
+      "dialect": "mysql"
+    }
   }
-}
+  

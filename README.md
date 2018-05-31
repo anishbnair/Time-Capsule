@@ -1,15 +1,16 @@
 # Time-Capsule
 
+A web application where users can search key pop culture milestones. Users can also post their favorite favorite fashion, movies, quotes, memories, etc.
+
+https://time-capsule1.herokuapp.com/
+
 ## Team:
 
-Front End Design:
-* Teresa Jackson
-* Judi Perez
-
-Back End and Database Development:
-* Anish B Nair
-* Yvonne Reichenbach 
-* Matt Jones
+* [Anish B Nair](https://github.com/anishbnair)
+* [Judi Perez](https://github.com/jjudi3)
+* [Matt Jones](https://github.com/matt-jones311)
+* [Teresa Jackson](https://github.com/reesaj69)
+* [Yvonne Reichenbach ](https://github.com/Yvolunia)
 
 ## Technologies Used:
 
